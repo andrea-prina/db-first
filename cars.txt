@@ -1,0 +1,23 @@
+CONSEGNA:
+Modellizzare la struttura di una tabella per memorizzare tutti i dati riguardanti delle auto usate messe in vendita da un concessionario.
+
+
+TABELLA:
+
+Nome tabella: macchine
+
+id - integer - MEDIUMINT - PRIMARY_KEY - AUTO_INCREMENT
+modello - string - VARCHAR(30) - NOTNULL
+marca - string - VARCHAR(20) - NOTNULL
+anno_immatricolazione - data - YEAR - NOTNULL
+km_percorsi - integer - MEDIUMINT - NOTNULL
+prezzo - float - FLOAT(8,2) - NOTNULL
+porte - integer - TINYINT - NULL
+trazione - string - VARCHAR(20) - NULL
+cavalli - integer - SMALLINT - NOTNULL
+colore_carrozzeria - string - VARCHAR(20) - NULL
+prenotata - boolean - TINYINT - NOTNULL
+condizioni_veicolo - string - TEXT - NULL
+
+
+
